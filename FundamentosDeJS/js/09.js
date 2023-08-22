@@ -19,6 +19,7 @@ const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']
 const nuevoArreglo =  tecnologias.filter( function(tech) {
     return tech !== 'HTML';
 })
+FILTER: Trae los elementos que cumplen con la condicion.
 console.table(nuevoArreglo)
 */
 
